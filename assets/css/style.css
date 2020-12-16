@@ -15,15 +15,18 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+/* Removed unnecessary .header selector */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Removed unnecessary .header h1 selectors */
+.seo {
     color: #d9dcd6;
 }
 
+/* .header is necessary to specify the divisions in the header class */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,11 +35,13 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* Removed unnecessary .header selector */
+ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/*Removed unnecessary .header ul selectors */
+li {
     display: inline-block;
     margin-left: 25px;
 }
